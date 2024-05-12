@@ -1,0 +1,113 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Welcome to School AR</h1>
+    </div>
+  </div>
+  <!--Navbar start-->
+  <div class="row">
+    <div class="col-md-12">
+      <nav class="navbar navbar-expand-sm navbar-dark">
+        <!-- Brand/logo -->
+        <div class="col-md-2">
+          <a class="navbar-brand text-primary" routerLink="/">WebSiteName</a>
+        </div>
+        <!-- Links -->
+        <ul class="navbar-nav col-md-10">
+          <li class="active col-md-2"><a class="text-decoration-none" routerLink="/">Home</a></li>
+          <li class="dropdown col-md-2 text-primary">
+            <a data-toggle="dropdown" class="text-decoration-none" routerLink="staffs">Staff</a>
+            <!-- class="dropdown-toggle"  <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Page 1-1</a></li>
+                <li><a href="#">Page 1-2</a></li>
+                <li><a href="#">Page 1-3</a></li>
+              </ul> -->
+          </li>
+          <li class="col-md-2 text-primary"><a class="text-decoration-none" routerLink="student">Student</a></li>
+          <li class="col-md-2 text-primary"><a class="text-decoration-none" routerLink="photos">Photos</a></li>
+          <li class="col-md-2 text-primary"><a class="text-decoration-none" routerLink="contacts">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!--Navbar End-->
+<!-- carousel start-->
+
+<div class="row">
+  <div id="controlPic" class="carousel slide col-md-12" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+          <li data-target="#controlPic" data-slide-to="0" class="active"></li>
+          <li data-target="#controlPic" data-slide-to="1"></li>
+          <li data-target="#controlPic" data-slide-to="2"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="../../assets/carouselImage/car1.jpg" class="d-block imgStyle" alt="pic1">
+          </div>
+          <div class="carousel-item">
+              <img src="../../assets/carouselImage/car2.jpeg" class="d-block imgStyle" alt="pic2">
+          </div>
+          <div class="carousel-item">
+              <img src="../../assets/carouselImage/car3.jpg" class="d-block imgStyle" alt="pic3">
+          </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#controlPic" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#controlPic" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+      </a>
+
+  </div>
+</div>
+
+<!--carousel end-->
+  <div class="row">
+    <div class="col-md-12">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+  <!--Footer Start-->
+  <div class="row">
+    <div class="col-md-4">
+      <h6>Quik Link</h6>
+      <p>Logo:</p>
+      <p>Mobile:</p>
+      <p>Email:</p>
+      <p>Website:</p>
+    </div>
+    <div class="col-md-4">
+      <h6>Quik Link</h6>
+      <ul class="list-inline">
+        <li><a class="text-decoration-none" routerLink="/">Home</a></li>
+        <li><a class="text-decoration-none" routerLink="photos">Photos</a></li>
+        <li><a class="text-decoration-none" routerLink="contacts">Contact</a></li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <h6>Quik Link</h6>
+      <p>Map:</p>
+    </div>
+  </div>
+  <!-- Footer End-->
+  <div class="row bg-secondary">
+    <div class="col-md-6">
+      <p class="copyright">
+        Copyright ©
+        <script>document.write(new Date().getFullYear());</script>2024 All rights reserved.
+      </p>
+    </div>
+    <div class="col-md-6 text-md-right">
+      Developed by AR
+    </div>
+  </div>
+</div>
