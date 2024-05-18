@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-fluid">
 
   <div class="row">
     <div class="col-md-12">
@@ -11,7 +11,9 @@
       <nav class="navbar navbar-expand-sm sticky-top navbar-dark">
         <!-- Brand/logo -->
         <div class="col-md-2">
-          <a class="navbar-brand text-primary" routerLink="/">WebSiteName</a>
+          <a class="navbar-brand text-primary" routerLink="/">
+            <img src="../assets/logos/logo.jpg" class="d-block logoStyle" alt="logo1">
+          </a>
         </div>
         <!-- Links -->
         <ul class="navbar-nav col-md-10">
@@ -75,13 +77,14 @@
   </div>
 
   <!--Footer Start-->
+  <hr>
   <div class="row">
     <div class="col-md-4">
       <h6>Quik Link</h6>
-      <p>Logo:</p>
-      <p>Mobile:</p>
-      <p>Email:</p>
-      <p>Website:</p>
+      <a routerLink="/">
+        <img src="../assets/logos/logo.jpg" class="d-block logoFooter" alt="logo1">
+      </a>
+      <p class="font-weight-bold p-1">फोन नंबर :</p>
     </div>
     <div class="col-md-4">
       <h6>Quik Link</h6>
@@ -105,7 +108,7 @@
       </p>
     </div>
     <div class="col-md-6 text-md-right">
-      Developed by AR
+      Developed by AR Creation
     </div>
   </div>
 </div>

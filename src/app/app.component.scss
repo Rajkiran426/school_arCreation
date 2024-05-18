@@ -1,18 +1,28 @@
-h1{
-    color:skyblue;
+h1 {
+    color: skyblue;
     padding: 5px;
     font-family: 'Courier New', Courier, monospace;
 }
+.logoStyle{
+    width: 100%;
+    height: auto;
+}
 
-.imgStyle{
+.imgStyle {
     width: 100%;
     height: 350px;
-  }
+}
 
-  .textStyle{
+.textStyle {
     padding: 10px;
-    font-size:xx-large;
+    font-size: xx-large;
     color: rgb(66, 62, 188);
     text-align: center;
-    font-weight:900;
-  }
+    font-weight: 900;
+}
+
+.logoFooter{
+    width: 50%;
+    height: 25%;
+    padding: 2px;
+}

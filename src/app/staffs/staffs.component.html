@@ -1,1 +1,26 @@
-<p>staffs works!</p>
+<div class="container mt-2 mb-2">
+    <h3>Principle's</h3>
+    <div class="row">        
+        <div class="col-md-4" *ngFor="let image of images1">
+            <div class="card mb-3">
+                <img [src]="image.url" class="card-img-top imageStyle" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{ image.title }}</h5>
+                    <p class="card-text">{{ image.description }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3>Teacher's</h3>
+    <div class="row">
+        <div class="col-md-4" *ngFor="let image of images2">
+            <div class="card mb-3">
+                <img [src]="image.url" class="card-img-top imageStyle" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{ image.title }}</h5>
+                    <p class="card-text">{{ image.description }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
