@@ -1,9 +1,41 @@
-<div class="container p-2">
-	<div class="col-md-3">
-		<div class="card outerStyle col-md-12">
-			<img src="assets/images/pic1.jpeg" alt="pic1">
-			<div class="text-center">
-				<h5>Raj</h5>
+<div class="container-fluid p-2">
+	<h4>स्मार्ट कक्ष</h4>
+	<hr>
+	<div class="row">
+		<div class="col-md-3" *ngFor="let image of images1">
+			<div class="card mb-4">
+				<img [src]="image.url" class="card-img-top imageStyle" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">{{ image.title }}</h5>
+					<p class="card-text">{{ image.description }}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<h4>विडियो</h4>
+	<hr>
+	<div class="row">
+		<div class="col-md-3" *ngFor="let image of images1">
+			<div class="card mb-4">
+				<img [src]="image.url" class="card-img-top imageStyle" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">{{ image.title }}</h5>
+					<p class="card-text">{{ image.description }}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<h4>पुस्तकालय कक्ष</h4>
+	<hr>
+	<div class="row">
+		<div class="col-md-3" *ngFor="let image of library">
+			<div class="card mb-4">
+				<img [src]="image.url" class="card-img-top imageStyle" alt="...">
+				<!-- <div class="card-body">
+					<h5 class="card-title">{{ image.title }}</h5>
+					<p class="card-text">{{ image.description }}</p>
+				</div> -->
 			</div>
 		</div>
 	</div>
