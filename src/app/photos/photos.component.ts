@@ -20,8 +20,8 @@ export class PhotosComponent {
   ];
   library = [
     { url: 'assets/library/lib1.jpg', title: 'Name', description: 'About' },
-    { url: 'image2.jpg', title: 'Image 2', description: 'Description for Image 2' },
-    { url: 'image3.jpg', title: 'Image 3', description: 'Description for Image 3' },
-    { url: 'image4.jpg', title: 'Image 4', description: 'Description for Image 4' },
+    // { url: 'image2.jpg', title: 'Image 2', description: 'Description for Image 2' },
+    // { url: 'image3.jpg', title: 'Image 3', description: 'Description for Image 3' },
+    // { url: 'image4.jpg', title: 'Image 4', description: 'Description for Image 4' },
   ];
 }
