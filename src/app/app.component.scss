@@ -16,7 +16,7 @@ h1 {
 }
 
 .textStyle {
-    padding: 10px;
+    padding: 2px;
     font-size: xx-large;
     color: rgb(66, 62, 188);
     text-align: center;
@@ -29,3 +29,17 @@ h1 {
     padding: 2px;
     border-radius: 10px;
 }
+// NEWS Styele Start
+.newsStyle {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    color: #d82525;
+  }
+  .newsStyle .star {
+    font-size: 26px; 
+    font-weight: bolder;
+    color: #f35555; 
+    vertical-align: 0.1em;
+  }
+
+  // NEWS Styele End

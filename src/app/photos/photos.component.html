@@ -2,30 +2,17 @@
 	<h4 class="font-weight-bold">स्मार्ट कक्ष</h4>
 	<hr>
 	<div class="row">
-		<div class="col-md-3" *ngFor="let image of images1">
+		<div class="col-md-3" *ngFor="let image of classesImage">
 			<div class="card mb-4">
 				<img [src]="image.url" class="card-img-top imageStyle" alt="...">
 				<div class="card-body">
-					<h5 class="card-title">{{ image.title }}</h5>
+					<!--h5 class="card-title">{{ image.title }}</h5 -->
 					<p class="card-text">{{ image.description }}</p>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<h4 class="font-weight-bold">विडियो</h4>
-	<hr>
-	<div class="row">
-		<div class="col-md-3" *ngFor="let image of images1">
-			<div class="card mb-4">
-				<img [src]="image.url" class="card-img-top imageStyle" alt="...">
-				<div class="card-body">
-					<h5 class="card-title">{{ image.title }}</h5>
-					<p class="card-text">{{ image.description }}</p>
-				</div>
-			</div>
-		</div>
-	</div>
 	<h4 class="font-weight-bold">पुस्तकालय कक्ष</h4>
 	<hr>
 	<div class="row">
@@ -39,4 +26,33 @@
 			</div>
 		</div>
 	</div>
+
+	<h4 class="font-weight-bold">पुरस्कार और शिष्टाचार</h4>
+	<hr>
+	<div class="row">
+		<div class="col-md-3" *ngFor="let image of prizePics">
+			<div class="card mb-4">
+				<img [src]="image.url" class="card-img-top imageStyle" alt="...">
+				<div class="card-body">
+					<!--h5 class="card-title">{{ image.title }}</h5 -->
+					<p class="card-text">{{ image.description }}</p>
+				</div> 
+			</div>
+		</div>
+	</div>
+
+	<h4 class="font-weight-bold">विडियो</h4>
+	<hr>
+	<div class="row">
+		<div class="col-md-3" *ngFor="let image of videos">
+			<div class="card mb-4">
+				<img [src]="image.url" class="card-img-top imageStyle" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">{{ image.title }}</h5>
+					<p class="card-text">{{ image.description }}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 </div>

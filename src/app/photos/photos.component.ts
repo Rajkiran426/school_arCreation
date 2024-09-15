@@ -6,17 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./photos.component.scss']
 })
 export class PhotosComponent {
-  images1 = [
-    { url: 'assets/smartClass/Computer1.jpg', title: 'कंप्यूटर कक्ष', description: 'कंप्यूटर की शिक्षा देते हुए शिक्षक.' },
-    { url: 'assets/smartClass/Projector1.jpg', title: 'प्रोजेक्टर कक्ष', description: 'प्रोजेक्टर पर शिक्षा देते हुए शिक्षक.' },
-    { url: 'image3.jpg', title: 'Image 3', description: 'Description for Image 3' },
-    { url: 'image4.jpg', title: 'Image 4', description: 'Description for Image 4' },
-  ];
-  images2 = [
-    { url: 'assets/images/pic1.jpeg', title: 'Name', description: 'About' },
-    { url: 'image2.jpg', title: 'Image 2', description: 'Description for Image 2' },
-    { url: 'image3.jpg', title: 'Image 3', description: 'Description for Image 3' },
-    { url: 'image4.jpg', title: 'Image 4', description: 'Description for Image 4' },
+  classesImage = [
+    { url: 'assets/smartClass/computer1.jpg',  title: 'कंप्यूटर कक्ष', description: 'कम्प्यूटर शिक्षा प्राप्त करते प्रा0वि0 चकिया के बच्चें' },
+    { url: 'assets/smartClass/projector1.jpg', title: 'प्रोजेक्टर कक्ष', description: 'प्रोजेक्टर प्राप्त करते प्रा0वि0 चकिया के बच्चें' },
+    { url: 'assets/smartClass/computer2.jpeg', title: 'कंप्यूटर कक्ष', description: 'कम्प्यूटर शिक्षा प्राप्त करते प्रा0वि0 चकिया के बच्चें' }
   ];
   library = [
     { url: 'assets/library/lib1.jpg', title: 'Name', description: 'About' },
@@ -24,4 +17,18 @@ export class PhotosComponent {
     // { url: 'image3.jpg', title: 'Image 3', description: 'Description for Image 3' },
     // { url: 'image4.jpg', title: 'Image 4', description: 'Description for Image 4' },
   ];
+  prizePics = [
+    { url: 'assets/prizePics/courtesy.jpeg',  title: 'Name',    description: 'केन्द्रीय स्वाथ्य एवं परिवार कल्याण राज्य मंत्री श्रीमती अनुप्रिया पटेल प्र0अ0 श्री राजेश कुमार पटेल को सम्मानित करते हुए' },
+    { url: 'assets/prizePics/prizePic1.jpeg', title: 'Image 2', description: 'जिला स्तरीय वन विभाग द्वारा आयोजित जिला स्तरीय दक्षता प्रतियोगिता में प्रथम स्थान प्राप्त किये हुए प्रा0वि0 चकिया प्रथम के बच्चों को जिला अध्यक्ष श्रीमती सरिता सिंह द्वारा पुरस्कार प्रदत्त करते हुए' },
+    { url: 'assets/prizePics/prizePic2.jpeg', title: 'Image 3', description: 'श्री रवि शर्मा प्रमा ज्योति फाउंडेशन के चेयरमैन व मिशन चेतना नई दिल्ली के संस्थापक द्वारा अभिभावक संगोष्ठी में प्रा0 वि0 चकिया प्रथम के बच्चों को पुरस्कृत करते हुए' },
+    { url: 'assets/prizePics/prizePic3.jpeg', title: 'Image 4', description: 'जनपदीय बाल क्रीडा प्रतियोगिता में प्र0अ0 श्री राजेश कुमार पटेल को सम्मानित करते हुए जिला बेसिक शिक्षा अधिकारी सुश्री चन्दना राम इकबाल यादव' },
+    { url: 'assets/prizePics/prizePic4.jpeg', title: 'Image 4', description: 'विद्यालय परिषर में बच्चों को टाई बेल्ट वितरित करते हुए जिला बेसिक शिक्षा अधिकारी श्री भोलेन्द्र प्रताप सिंह' },
+  ];
+  videos = [
+    { url: 'assets/images/pic1.jpeg', title: 'Name', description: 'About' },
+    { url: 'image2.jpg', title: 'Image 2', description: 'Description for Image 2' },
+    { url: 'image3.jpg', title: 'Image 3', description: 'Description for Image 3' },
+    { url: 'image4.jpg', title: 'Image 4', description: 'Description for Image 4' },
+  ];
+ 
 }
