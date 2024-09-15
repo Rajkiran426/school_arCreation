@@ -23,12 +23,16 @@ export class PhotosComponent {
     { url: 'assets/prizePics/prizePic2.jpeg', title: 'Image 3', description: 'श्री रवि शर्मा प्रमा ज्योति फाउंडेशन के चेयरमैन व मिशन चेतना नई दिल्ली के संस्थापक द्वारा अभिभावक संगोष्ठी में प्रा0 वि0 चकिया प्रथम के बच्चों को पुरस्कृत करते हुए' },
     { url: 'assets/prizePics/prizePic3.jpeg', title: 'Image 4', description: 'जनपदीय बाल क्रीडा प्रतियोगिता में प्र0अ0 श्री राजेश कुमार पटेल को सम्मानित करते हुए जिला बेसिक शिक्षा अधिकारी सुश्री चन्दना राम इकबाल यादव' },
     { url: 'assets/prizePics/prizePic4.jpeg', title: 'Image 4', description: 'विद्यालय परिषर में बच्चों को टाई बेल्ट वितरित करते हुए जिला बेसिक शिक्षा अधिकारी श्री भोलेन्द्र प्रताप सिंह' },
+    { url: 'assets/prizePics/prizePic5.jpeg', title: 'Image 5', description: 'जनपदीय बाल क्रीडा प्रतियोगिता में विशेष प्रदर्शन में पुरस्कृत बच्चे प्र0अ0 के साथ' },
   ];
   videos = [
-    { url: 'assets/images/pic1.jpeg', title: 'Name', description: 'About' },
-    { url: 'image2.jpg', title: 'Image 2', description: 'Description for Image 2' },
-    { url: 'image3.jpg', title: 'Image 3', description: 'Description for Image 3' },
-    { url: 'image4.jpg', title: 'Image 4', description: 'Description for Image 4' },
+    { url: 'assets/Videos/video1.mp4', title: 'Video 1', description: 'स्वागत गीत भुड़कुड़ा' },
+    { url: 'assets/Videos/video2.mp4', title: 'Video 2', description: 'वानिकी कार्यक्रम के अवसर पर सास्कृतिक में प्रतिभाग करते हुए प्रा0वि0 चकिया प्रथम जनपद चन्दौली के बच्चें' },
+    { url: 'assets/Videos/video3.mp4', title: 'Video 3', description: 'Description for Image 3' },
+    { url: 'assets/Videos/video4.mp4', title: 'Video 4', description: 'Description for Image 4' },
+    { url: 'assets/Videos/video5.mp4', title: 'Video 5', description: 'एक पेड़ माॅ के नाम वानिकी कार्यक्रम के अवसर पर प्रद्रर्शन  करते  प्रा0वि0 चकिया प्रथम  व उच्च प्राथमिक विद्यालय चकिया  जनपद चन्दौली के बच्चें' },
+    { url: 'assets/Videos/video6.mp4', title: 'Video 6', description: 'Description for Image 4' },
+    { url: 'assets/Videos/video7.mp4', title: 'Video 7', description: 'ए वानिकी कार्यक्रम के  वन मंत्री बिहार सरकार को ससम्मान मंच तक ले जाते हुए कब-बुलबुल व स्काउटगाइड की अवसर पर प्रद्रर्शन  करते  प्रा0वि0 चकिया प्रथम  व उच्च प्राथमिक विद्यालय चकिया  जनपद चन्दौली उत्तर प्रदेश के बच्चें' }
   ];
  
 }
