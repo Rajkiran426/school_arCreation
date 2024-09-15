@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./photos.component.scss']
 })
 export class PhotosComponent {
-  classesImage = [
+  classImages = [
     { url: 'assets/smartClass/computer1.jpg',  title: 'कंप्यूटर कक्ष', description: 'कम्प्यूटर शिक्षा प्राप्त करते प्रा0वि0 चकिया के बच्चें' },
     { url: 'assets/smartClass/projector1.jpg', title: 'प्रोजेक्टर कक्ष', description: 'प्रोजेक्टर प्राप्त करते प्रा0वि0 चकिया के बच्चें' },
     { url: 'assets/smartClass/computer2.jpeg', title: 'कंप्यूटर कक्ष', description: 'कम्प्यूटर शिक्षा प्राप्त करते प्रा0वि0 चकिया के बच्चें' }
