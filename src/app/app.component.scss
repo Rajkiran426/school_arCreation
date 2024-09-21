@@ -1,12 +1,10 @@
-h1 {
-    color: skyblue;
-    padding: 5px;
-    font-family: 'Courier New', Courier, monospace;
-}
+
 .logoStyle{
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+    border-radius: 8px;
+}
+.toggleButton{
+    background-color: #ddd0ed;
+
 }
 
 .imgStyle {
@@ -14,9 +12,10 @@ h1 {
     height: 350px;
     border-radius: 4px;
 }
-
-.textStyle {
-    padding: 2px;
+.bgColor{
+    background-color:rgb(236, 241, 244);
+}
+.textStyle { 
     font-size: xx-large;
     color: rgb(66, 62, 188);
     text-align: center;

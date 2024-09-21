@@ -1,41 +1,50 @@
 <div class="container-fluid">
-
-  <div class="row">
-    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-      <p class="textStyle">!! प्राथमिक विद्यालय चकिया प्रथम वि. क्षे. चकिया जनपद-चंदौली !!</p>
+  <div class="sticky-top bgColor">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <p class="textStyle">!! प्राथमिक विद्यालय चकिया प्रथम वि. क्षे. चकिया जनपद-चंदौली !!</p>
+      </div>
     </div>
-  </div>
-  <!--Navbar start-->
-  <div class="row">
-    <div class="col-md-12">
-      <nav class="navbar navbar-expand-sm sticky-top navbar-dark">
-        <!-- Brand/logo -->
-        <div class="col-md-2">
+    <!--Navbar start-->
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <nav class="navbar navbar-expand-sm  navbar-dark">
+          <!-- Brand/logo -->
           <a class="navbar-brand text-primary" routerLink="/">
-            <img src="assets/logos/logo.jpg" class="d-block logoStyle" alt="logo1">
+            <img src="assets/logos/logo.jpg" class="logoStyle" alt="logo1">
           </a>
-        </div>
-        <!-- Links -->
-        <ul class="navbar-nav col-md-10">
-          <li class="active col-md-2"><a class="text-decoration-none font-weight-bold" routerLink="/">मुख्य पृष्ठ</a>
-          </li>
-          <li class="dropdown col-md-2 text-primary">
-            <a data-toggle="dropdown" class="text-decoration-none font-weight-bold" routerLink="staffs">स्टाफ़</a>
-            <!-- class="dropdown-toggle"  <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-              </ul> -->
-          </li>
-          <li class="col-md-2 text-primary"><a class="text-decoration-none font-weight-bold"
-              routerLink="student">विद्यार्थी</a></li>
-          <li class="col-md-2 text-primary"><a class="text-decoration-none font-weight-bold"
-              routerLink="photos">गैलरी</a></li>
-          <li class="col-md-2 text-primary"><a class="text-decoration-none font-weight-bold"
-              routerLink="contacts">संपर्क सूत्र</a></li>
-        </ul>
-      </nav>
+
+          <!-- Toggler button for mobile view -->
+          <button class="navbar-toggler toggleButton" type="button" data-toggle="collapse" data-target="#navbarMenu"
+            aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto col-md-12">
+              <li class="active col-md-2">
+                <a class="text-decoration-none font-weight-bold" routerLink="/">मुख्य पृष्ठ</a>
+              </li>
+              <li class="dropdown col-md-2 text-primary">
+                <a data-toggle="dropdown" class="text-decoration-none font-weight-bold" routerLink="staffs">स्टाफ़</a>
+                <!-- class="dropdown-toggle"  <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Page 1-1</a></li>
+                  <li><a href="#">Page 1-2</a></li>
+                  <li><a href="#">Page 1-3</a></li>
+                </ul> -->
+              </li>
+              <li class="col-md-2 text-primary"><a class="text-decoration-none font-weight-bold"
+                  routerLink="student">विद्यार्थी</a></li>
+              <li class="col-md-2 text-primary"><a class="text-decoration-none font-weight-bold"
+                  routerLink="photos">गैलरी</a></li>
+              <li class="col-md-2 text-primary"><a class="text-decoration-none font-weight-bold"
+                  routerLink="contacts">संपर्क सूत्र</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
   </div>
   <!--Navbar End-->
@@ -89,13 +98,13 @@
   <!-- Latest NEWS start-->
   <div class="row">
     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-      <marquee  class="newsStyle" direction="left" scrolldelay="100" behavior="alternate">
+      <marquee class="newsStyle" direction="left" scrolldelay="100" behavior="alternate">
         <span class="star">★</span>अभी वेबसाइट बनाने की प्रक्रिया चल रही है.
       </marquee>
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
       <router-outlet></router-outlet>
     </div>
   </div>
